@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.contador {
+    font-size: 48px;
+    margin: 20px 0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 400px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+    background-color: #007BFF;
+    color: white;
+}
+
+button:hover {
+    background: #0056b3;
+}
